@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>webpack-react_hotdev_poc</title>
+</head>
+<body>
+<!-- each react will begin from a html element, all react component will append to this element -->
+<div id="baiandban"></div>
+
+<script src="./socket.io.js"></script>
+<!-- webpack hotdev will create a memory file: hotbundle.js, and document will laod this file from memory ,NOT from Local. so NOT './hotboudle.js' -->
+<script src="hotbundle.js"></script>
+
+</body>
+</html>
+
